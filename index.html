@@ -3,124 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <title>📋 Curriculum Vitae</title>
+    <link rel="stylesheet" href=styles.css>
 </head>
-<body bgcolor="#FDF5E6">
-    <font color="#4B0082">
-    <table cellspacing=20>
-        <tr>
-            <td><img src="Keshav.png" alt="keshav priyam about" width=200 height=200></td>
-            <td>
-                <h1>Keshav Priyam</h1>
-                <p><em>CURRENTLY A <strong>STUDENT</strong></a>.</em>
-                </p>
-                <p>A person with a blend of innovation, strategy and design.<br>
-                    Besides, I'm known for my excellent communication skills and that stress busting humour.
-                </p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    
-    <h2>EDUCATION</h2>
-    <ul>
-        <li><b>Nehru International Public School, Noida</b></li> 
-        <ul>
-            <li>2017-2018 : 10th Std</li>
-            <li>2019-2020 : 12th Std</li>
-        </ul>
-        <br>
-        <li><b>Guru Gobind Singh Indraprastha University, Delhi</b></li>
-        <ul>
-            <li>2020-2023 : Bachelor of Computer Application</li>
-        </ul>
-    </ul>
-    <hr>
-    <h2>WORK EXPERIENCE</h2>
-    
-    <table border=1 cellspacing=2 cellpadding=7>
+<body>
+
+    <div class="intro">
+        <img src="Keshav.png" alt="keshav priyam about">
+        <span class="name">Keshav Priyam</span>
+        <span class="alt">Strategy | Design | Humour</span>
+        <hr>
+    </div>
+    <h2 class="edu-heading">EDUCATION</h2>
+    <div class="education">
+        <span class="edu1">
+            <ul>
+                <li><b>Nehru International Public School, Noida</b></li> 
+                <ul>
+                    <li>2017-2018 : 10th Std</li>
+                    <li>2019-2020 : 12th Std</li>
+                </ul>
+                <br>
+                <li><b>Guru Gobind Singh Indraprastha University, Delhi</b></li>
+                <ul>
+                    <li>2020-2023 : Bachelor of Computer Application</li>
+                </ul>
+            </ul>
+        </span>
+    </div>
+
+    <div class="work-table-heading">
+        <h2>WORK EXPERIENCE</h2>
+    <table class="work-table" >
         <thead>
-            <tr bgcolor="#4B0082">
-                
-                <th><font color="#F5FFFA">TENURE</font></th>
-                <th><font color="#F5FFFA">WORK</font></th>
-                
-            </tr>
+            <tr>
+                <th>YEAR</th>
+                <th>WORK</th>
+            </tr> 
         </thead>
         <tbody>
             <tr>
-                <td>2019-2020</td>
+                <td>2019</td>
                 <td>Chemical Library using File Handling in C++ [Console]</td>
             </tr>
             <tr>
-                <td>2019-2020</td>
+                <td>2020</td>
                 <td>Mini Election App [Console, Arrays]</td>
             </tr>
             <tr>
-                <td>2020-2021</td>
+                <td>2021</td>
                 <td>RailYatra Project using Python [GUI, MySQL] </td>
             </tr>
             <tr>
-                <td>2020-2021</td>
+                <td>2021</td>
                 <td>Delhi Metro Card Informatics using Python [GUI, MySQL] </td>
             </tr>
             <tr>
-                <td>2020-2021</td>
+                <td>2021</td>
                 <td>Cow Bull Game using Unreal Engine 4 C++</td>
             </tr>
             <tr>
-                <td>2020-2021</td>
+                <td>2021</td>
                 <td>Run and Gun Game using Unreal Engine 4 C++ </td>
             </tr>
         </tbody>
     </table>    
-    <hr>
-    <h2>SKILLS</h2>
-    <table border=1 cellspacing=3 cellpadding=5 bgcolor="#4B0082" bordercolor="#F5FFFA">
-        <tr>
-          <td>
-            <table>
+    </div>
+
+    <div class="skills-table-heading">
+        <h2>SKILLS</h2>
+        <table class="skills-table">
             <tr>
-                <td><font color="#F5FFFA">C Programming</font></td>
-                <td>⭐⭐⭐ </td>
-            </tr>
-            <tr>
-                <td><font color="#F5FFFA">C++ Programming</font></td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td><font color="#F5FFFA">Python Programming</font></td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-            </table>
-            </td>
-          <td>
-            <table>
+              <td>
+                <table>
                 <tr>
-                    <td> <font color="#F5FFFA">SQL and Database</font></td>
-                    <td>⭐⭐⭐⭐⭐</td>
-                
+                    <td>C Programming</td>
+                    <td>⭐⭐⭐ </td>
                 </tr>
                 <tr>
-                    <td> <font color="#F5FFFA">HTML</font></td>
-                    <td>⭐⭐⭐⭐⭐</td>
+                    <td>C++ Programming</td>
+                    <td>⭐⭐⭐⭐</td>
                 </tr>
                 <tr>
-                    <td> <font color="#F5FFFA">Editing and Designing</font></td>
-                    <td>⭐⭐⭐⭐⭐</td>
+                    <td>Python Programming</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>
+                </table>
+                </td>
+              <td>
+                <table>
+                    <tr>
+                        <td> <font1>SQL and Database</font1></td>
+                        <td>⭐⭐⭐⭐⭐</td>
                     
-                </tr>  
-            </table>
-         </td>
-        </tr>
-    </table>
-    <hr>
-    <center>
-    <h3><a href="hobbies.html">My Hobbies</a> &nbsp &nbsp
-        <a href="contact-me.html">Contact Me</a> &nbsp &nbsp
-        <a href="#">Acheivements</a>
-    </h3>
-</center>   
-    <hr>
-</font>
+                    </tr>
+                    <tr>
+                        <td> <font1>HTML</font1></td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td> <font1>Editing and Designing</font1></td>
+                        <td>⭐⭐⭐⭐⭐</td>
+
+                    </tr>  
+                </table>
+             </td>
+            </tr>
+        </table>
+    </div>
+    <hr class="end-hr">
+
+    <div class="end">
+        <h3 class="h3i"><a href="hobbies.html">My Hobbies</a> </h3>
+        <h3 class="h3ii"><a href="contact-me.html">Contact Me</a> </h3>
+        <h3 class="h3iii"><a href="#">Acheivements</a> </h3>   
+    </div>
+
 </body>
 </html>

@@ -1,7 +1,10 @@
 body{
     color:whitesmoke;
-    background-color:#F7F6F2;
-    background-image: Url("IMG_4199.jpg");
+    background-color:rgb(14, 10, 15);
+    background: url("IMG_4199.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     font-family: sans-serif;
     text-align: center;

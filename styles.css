@@ -1,178 +1,27 @@
-body{
-    color:whitesmoke;
-    background-color:rgb(14, 10, 15);
-    background: url("IMG_4199.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: sans-serif;
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.intro{
-    text-align: center;
+.head {
+    margin-bottom: 5vh;
 }
 
-.name{
-    
-    font-size: 50px;
-    display: block;
-    color:white;
+.head img{
+    width: 15vw;
+    margin-top: 2vh;
 }
 
-.alt{
-    margin-top: 3px;
-    font-size: 20px;
-    color: whitesmoke;
-    display: block;
-    opacity: 0.75;
+nav {
+    border-radius: 5px;
 }
 
-hr{
-    color: #FCECDD;
-    width: 30%;
-    border-top:none;
-    margin-bottom: 30px;
+.link-icons {
+    margin-top: 10vh;
 }
 
-
-.edu-heading{
-    margin-top:50px;
-    padding-left: 1%;
-}
-
-.education{
-    background-color:rgba(255, 255, 255, .2);
-    border: solid 2px rgba(255, 255, 255, .3);
-    border-radius: 8px;
-    font-size: 20px;
-    padding:1%;
-    margin-left:20%;
-    margin-right:15%;
-}
-
-ul{
-    display: table;
-    margin: 0 auto;
-}
-
-.edu1{
-    display: inline;
-}
-
-.work-table-heading{
-    margin-top:50px;
-    padding:1%;
-}
-.work-table{
-    border-collapse: collapse;
-    margin:10px;
-    font-size:18px;
-    border-radius: 10px 10px 10px 10px;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-}
-.work-table thead tr th{
-    background-color: rgba(255, 255, 255, .4);
-    padding: 1%;
-}
-.work-table tbody tr{
-    border-bottom: 2px solid rgba(255, 255, 255, .2);
-    background-color:rgba(255, 255, 255, .2);
-}
-.work-table tbody tr:nth-of-type(even){
-    background-color:rgba(100, 100, 100, .3);
-}
-.work-table tbody tr:last-of-type{
-    border-bottom: 5px solid rgba(255, 255, 255, .4);
-}
-.work-table tbody td{
-    padding: 20px;
-}
-
-.skills-table-heading{
-    padding:1%;
-    margin-top:2%;
-}
-
-.skills-table{
-    border-collapse: collapse;
-    font-size:17px;
-    border-radius: 10px 10px 10px 10px;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, .3);
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.skills-table td{
-    padding:10px;
-}
-
-img{
-    height: 200px;
-    width: 200px;
-}
-
-h1{
-    color: white;
-}
-h2{
-    opacity: 0.85;
-    color: whitesmoke;
-}
-
-.end-hr{
-    color: #FCECDD;
-    width: 70%;
-    border-top:none;
-    margin-top: 50px;
-}
-
-.end{
-    text-align: center;
-}
-
-.h3i{
-    display:inline;
-}
-.h3ii{
-    display:inline;
-    padding-right:10%;
-    padding-left:10%;
-}
-.h3iii{
-    display:inline;
-}
-
-.detail-heading{
-    text-align: center;
-    padding-left:1%;
-}
-.details{
-    background-color: rgba(255, 255, 255, .2);
-    margin:2%;
-    border-radius: 10px;
-    padding: 1%;
-    margin-bottom:3% ;
-    text-align: left;
-}
-.details-table td{
-    padding:5px;
-}
-
-.submit-heading{
-    text-align: left;
-    margin-left: 3%;
-    margin-bottom: 1%;
-}
-.submit{
-    background-color: rgba(255, 255, 255, .2);
-    margin:2%;
-    border-radius: 10px;
-    padding: 1%;
-    margin-bottom:3% ;
-    text-align: left;
+.topnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

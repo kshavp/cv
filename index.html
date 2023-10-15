@@ -4,119 +4,50 @@
     <meta charset="UTF-8">
     <title>📋 Curriculum Vitae</title>
     <link rel="stylesheet" href=styles.css>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+       <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
+
 <body>
-
-    <div class="intro">
-        <img src="Keshav.png" alt="keshav priyam about">
-        <span class="name">Keshav Priyam</span>
-        <span class="alt">Strategy | Design | Humour</span>
-        <hr>
-    </div>
-    <h2 class="edu-heading">EDUCATION</h2>
-    <div class="education">
-        <span class="edu1">
-            <ul>
-                <li><b>Nehru International Public School, Noida</b></li> 
-                <ul>
-                    <li>2017-2018 : 10th Std</li>
-                    <li>2019-2020 : 12th Std</li>
-                </ul>
-                <br>
-                <li><b>Guru Gobind Singh Indraprastha University, Delhi</b></li>
-                <ul>
-                    <li>2020-2023 : Bachelor of Computer Application</li>
-                </ul>
-            </ul>
-        </span>
+    
+    <div class="top grey darken-4">
+        <div class="head center-align">
+            <img class="center-align" src="me.png" alt="keshav priyam about">
+            <h1 class="white-text">Hi, I'm Keshav Priyam.</h1>
+            <h5><span id="element" class="blue-text text-lighten-2"></span></h5>
+            <div class="divider divider-grey"></div>
+        </div>
     </div>
 
-    <div class="work-table-heading">
-        <h2>WORK EXPERIENCE</h2>
-    <table class="work-table" >
-        <thead>
-            <tr>
-                <th>YEAR</th>
-                <th>WORK</th>
-            </tr> 
-        </thead>
-        <tbody>
-            <tr>
-                <td>2019</td>
-                <td>Chemical Library using File Handling in C++ [Console]</td>
-            </tr>
-            <tr>
-                <td>2020</td>
-                <td>Mini Election App [Console, Arrays]</td>
-            </tr>
-            <tr>
-                <td>2021</td>
-                <td>RailYatra Project using Python [GUI, MySQL] </td>
-            </tr>
-            <tr>
-                <td>2021</td>
-                <td>Delhi Metro Card Informatics using Python [GUI, MySQL] </td>
-            </tr>
-            <tr>
-                <td>2021</td>
-                <td>Cow Bull Game using Unreal Engine 4 C++</td>
-            </tr>
-            <tr>
-                <td>2021</td>
-                <td>Run and Gun Game using Unreal Engine 4 C++ </td>
-            </tr>
-        </tbody>
-    </table>    
+    <nav class="blue-grey darken-4 container z-depth-5">
+        <div class="nav-content row">
+          <ul class="tabs tabs-transparent black ">
+            <li class="col s2 m2 tab"><a href="education.html"><b>Education</b></a></li>
+            <li class="col s2 m2 tab"><a href="experience.html"><b>Experience</b></a></li>
+            <li class="col s2 m2 tab"><a href="projects.html"><b>Projects</b></a></li>
+            <li class="col s2 m2 tab"><a href="skills.html"><b>Skills</b></a></li>
+            <li class="col s2 m2 tab"><a href="resume.html"><b>Resume</b></a></li>
+            <li class="col s2 m2 tab"><a href="#test1"><b>Contact Me</b></a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="link-icons center-align" style="margin-top: 10vh;">
+        <img class="" width="64" height="64" src="https://img.icons8.com/glyph-neue/64/228BE6/linkedin-circled.png" alt="linkedin-circled"/>
+        <img class="" width="64" height="64" src="https://img.icons8.com/sf-black-filled/64/228BE6/github.png" alt="github"/>
+        <img class="" width="50" height="50" src="https://img.icons8.com/ios-filled/50/228BE6/mail.png" alt="mail"/>
     </div>
-
-    <div class="skills-table-heading">
-        <h2>SKILLS</h2>
-        <table class="skills-table">
-            <tr>
-              <td>
-                <table>
-                <tr>
-                    <td>C Programming</td>
-                    <td>⭐⭐⭐ </td>
-                </tr>
-                <tr>
-                    <td>C++ Programming</td>
-                    <td>⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Python Programming</td>
-                    <td>⭐⭐⭐⭐</td>
-                </tr>
-                </table>
-                </td>
-              <td>
-                <table>
-                    <tr>
-                        <td> <font1>SQL and Database</font1></td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    
-                    </tr>
-                    <tr>
-                        <td> <font1>HTML</font1></td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td> <font1>Editing and Designing</font1></td>
-                        <td>⭐⭐⭐⭐⭐</td>
-
-                    </tr>  
-                </table>
-             </td>
-            </tr>
-        </table>
-    </div>
-    <hr class="end-hr">
-
-    <div class="end">
-        <h3 class="h3i"><a href="hobbies.html">My Hobbies</a> </h3>
-        <h3 class="h3ii"><a href="contact-me.html">Contact Me</a> </h3>
-        <h3 class="h3iii"><a href="#">Acheivements</a> </h3>   
-    </div>
-
 </body>
+
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Security', 'Strategy', 'Threat Counter', 'Development', 'Database Management', 'Design'],
+      typeSpeed: 70,
+      backDelay: 700,
+      startDelay: 2000,
+      fadeOut: true,
+      loop: true
+    });
+</script>
 </html>
